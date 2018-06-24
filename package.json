@@ -1,0 +1,22 @@
+{
+  "main": "index.js",
+  "scripts": {
+    "build": "electron-packager . elec-rom"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gkjohnson/elec-rom.git"
+  },
+  "author": "Garrett Johnson <garrett.kjohnson@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gkjohnson/elec-rom/issues"
+  },
+  "homepage": "https://github.com/gkjohnson/elec-rom#readme",
+  "devDependencies": {
+    "electron": "^2.0.3",
+    "electron-packager": "^12.1.0",
+    "parcel-bundler": "^1.9.2"
+  },
+  "dependencies": {}
+}
